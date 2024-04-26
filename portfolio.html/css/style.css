@@ -1,0 +1,100 @@
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    border-top: box-sizing;
+    font-family: "Oswald", sans-serif;
+}
+header{
+    background-color: #747d90;
+    color: #fff;
+}
+h1{
+  text-shadow:5px 5px black;
+}
+h1:hover{
+  background-color: #202938;
+  font-weight: bold;
+  transform: translate(5px, 5%);
+}
+main{
+    background-color: #4a5364;
+    color: #fff;
+}
+ul{
+  list-style-type: square;
+}
+ol{
+  list-style-type: upper-roman;
+}
+h2{
+  text-shadow:5px 5px black;
+}
+h2:hover{
+  background-color: #202938;
+  font-weight: bold;
+  transform: translate(5px, 5%);
+}
+p:hover{
+  background-color: #202938;
+  font-weight: bold;
+  transform: translate(5px, 5%);
+}
+li:hover{
+  background-color: #202938;
+  font-weight: bold;
+  transform: translate(5px, 5%);
+}
+table {
+    margin: 10px;
+    border-collapse: collapse;
+    background-color: #747d90;
+    margin-bottom: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    overflow: hidden;
+}
+table:hover{
+  transform: translate(5px, 5%);
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #333;
+  color: #fff;
+}
+tr:hover {
+  background-color: #202938;
+  font-weight: bold;
+}
+img{
+  margin: 10px;
+  border-radius: 20px;
+}
+img:hover{
+  opacity: 30%;
+  transform: scale(0.8);
+}
+form{
+  padding: 10px;
+}
+.botao{
+  border: 2px solid black;
+}
+footer{
+    background-color: #202938;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+} 
